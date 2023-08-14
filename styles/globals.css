@@ -16,6 +16,10 @@ button {
 	background-color: var(--sec);
 	color: var(--bg);
 	cursor: pointer;
+	border: none;
+	font-size: 2rem;
+	border-radius: 0.1rem;
+	text-align: center;
 }
 
 a {
@@ -28,4 +32,16 @@ a {
 }
 .into {
 	text-align: center;
+}
+.headerText {
+	font-size: 10rem;
+	text-align: center;
+}
+.subText {
+	font-size: 2rem;
+	text-align: center;
+}
+.subButtons {
+	/* make it spread apart */
+	display: flexbox;
 }
