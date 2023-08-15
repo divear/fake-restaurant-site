@@ -7,7 +7,7 @@ export default function Home() {
 			<title>U Labužnického stolu</title>
 			<div className="intro">
 				<h1 className="headerText">U Labužnického stolu</h1>
-				<h2 className="subText">Tradiční české restaurace.</h2>
+				<h2 className="subText">Tradiční česká restaurace.</h2>
 				<div className="subButtons">
 					<button>Obědová nabídka</button>
 					<button>Večerní nabídka</button>
