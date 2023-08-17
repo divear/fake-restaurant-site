@@ -45,6 +45,12 @@ a {
 p {
 	font-size: 2rem;
 }
+.floatRight {
+	float: right;
+}
+.floatLeft {
+	float: left;
+}
 .into {
 	text-align: center;
 }
@@ -69,4 +75,11 @@ p {
 }
 .leftHeader {
 	font-size: 5rem;
+}
+.foodImg {
+	position: absolute;
+	right: 20vw;
+	top: 118%;
+	width: 30vw;
+	height: 20vw;
 }

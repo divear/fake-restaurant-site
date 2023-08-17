@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import food from "../public/food.png"
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 				<p>
 					Od svého založení v roce 1974 jsme nezměnili menu
 				</p>
+				<Image className="foodImg" src={food} alt="food img"></Image>
 			</div>
 		</div>
 	);
