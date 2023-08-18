@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 :root {
 	--fr: #1e123d;
-	--bg: #fbe9e9;
+	--bg: #fff9f9;
+	--bg2: #fbe9e9;
 	--sec: #a42700;
 }
 html,
@@ -45,6 +46,9 @@ a {
 p {
 	font-size: 2rem;
 }
+input {
+	border: none;
+}
 .floatRight {
 	float: right;
 }
@@ -56,7 +60,7 @@ p {
 }
 .headerText {
 	font-size: 10rem;
-	text-shadow: -5px -5px 0.1vw var(--fr);
+	text-shadow: -5px -5px 0.4vw var(--fr);
 	text-align: center;
 }
 .subText {
@@ -75,6 +79,7 @@ p {
 }
 .leftHeader {
 	font-size: 5rem;
+	margin: 5vh 0 0 0 !important;
 }
 .foodImg {
 	position: absolute;
@@ -82,4 +87,23 @@ p {
 	top: 118%;
 	width: 30vw;
 	height: 20vw;
+}
+.rezerv {
+	background-color: var(--bg2);
+	padding: 1vw;
+}
+.rezervGrid {
+	width: 45vw;
+	padding: 0 2vw;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.rezervGrid * {
+	font-size: 3rem;
+	margin: 0.1vw 0;
+}
+.submitRezerv {
+	width: 50%;
+	margin: 1vw;
 }

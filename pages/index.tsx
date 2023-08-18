@@ -21,6 +21,19 @@ export default function Home() {
 				</p>
 				<Image className="foodImg" src={food} alt="food img"></Image>
 			</div>
+			<div className="rezerv">
+				<h1 className="leftHeader">Rezervujte si stůl</h1>
+				<div className="rezervGrid">
+					<p>Datum: <input type="date" /></p>
+					<p>Počet hostů: <input type="number" /></p>
+					<p>Čas: <br /><input type="time" /></p>
+					<p>Délka návštevy: <input type="text" /></p>
+					<button className="submitRezerv" type="submit">Rezervace</button>
+				</div>
+			</div>
+			<div className="bottomInfo">
+				<h1>Otevírací doba</h1>
+			</div>
 		</div>
 	);
 }
