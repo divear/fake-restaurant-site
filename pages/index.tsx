@@ -3,6 +3,9 @@ import Image from "next/image";
 import food from "../public/food.png"
 
 export default function Home() {
+	function rezerv() {
+
+	}
 	return (
 		<div>
 			<title>U Labužnického stolu</title>
@@ -21,7 +24,7 @@ export default function Home() {
 				</p>
 				<Image className="foodImg" src={food} alt="food img"></Image>
 			</div>
-			<div className="rezerv">
+			<form onSubmit={rezerv} className="rezerv">
 				<h1 className="leftHeader">Rezervujte si stůl</h1>
 				<div className="rezervGrid">
 					<p>Datum: <input type="date" /></p>
@@ -30,7 +33,7 @@ export default function Home() {
 					<p>Délka návštevy: <input type="text" /></p>
 					<button className="submitRezerv" type="submit">Rezervace</button>
 				</div>
-			</div>
+			</form>
 			<div className="bottomInfo">
 				<h1>Otevírací doba</h1>
 			</div>
