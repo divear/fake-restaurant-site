@@ -36,6 +36,29 @@ export default function Home() {
 			</form>
 			<div className="bottomInfo">
 				<h1>Otevírací doba</h1>
+				<ul>
+					<li> PO 11-16</li>
+					<li> ÚT 11-16</li>
+					<li> ST 11-22</li>
+					<li> ČT 11-16</li>
+					<li> PÁ 11-22</li>
+					<li> SO Zavřeno</li>
+					<li> NE Zavřeno</li>
+				</ul>
+				<h1>Kontakt</h1>
+				<ul>
+					<li>Purkyňova 2832, 612 00 Brno-Královo Pole, Česko</li>
+					<li>+420 123 456 789</li>
+					<li>divearus@gmail.com</li>
+					<li>Vedoucí: Lukáš Odehnal</li>
+				</ul>
+				<h1>extra info:</h1>
+				<ul>
+					<li>Přijdete-li s kočárkem, prosím upozorněte nás na to předem, abychom vybrali vhodné místo.</li>
+					<li>Psi v restauraci jsou vítáni, prosím informujte nás předem.</li>
+					<li>Restaurace je klimatizovaná.</li>
+					<li>K dispozici je WiFi připojení.</li>
+				</ul>
 			</div>
 		</div>
 	);
