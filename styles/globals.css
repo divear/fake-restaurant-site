@@ -4,6 +4,7 @@
 	--bg: #fff9f9;
 	--bg2: #fbe9e9;
 	--sec: #a42700;
+	--text: #414141;
 }
 html,
 body {
@@ -44,7 +45,12 @@ a {
 	box-sizing: border-box;
 }
 p {
-	font-size: 2rem;
+	/* font-size: 2rem; */
+	margin: 0;
+	color: var(--text);
+}
+b {
+	color: var(--sec);
 }
 input {
 	border: none;
@@ -64,7 +70,7 @@ input {
 	text-align: center;
 }
 .subText {
-	font-size: 2rem;
+	font-size: 4.688rem;
 	text-align: center;
 }
 .subButtons {
@@ -106,4 +112,13 @@ input {
 .submitRezerv {
 	width: 50%;
 	margin: 1vw;
+}
+.bottomInfo {
+	padding: 2vw;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	font-size: 2.813rem;
+}
+.extraInfo {
+	font-size: 1.875rem;
 }

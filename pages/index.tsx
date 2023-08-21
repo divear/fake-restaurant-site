@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import food from "../public/food.png"
+import image1 from "../public/icons/image1.svg"
+import image2 from "../public/icons/image2.svg"
+import image3 from "../public/icons/image3.svg"
+import image4 from "../public/icons/image4.svg"
 
 export default function Home() {
 	function rezerv() {
@@ -19,9 +23,9 @@ export default function Home() {
 			</div>
 			<div className="leftText">
 				<h1 className="leftHeader">Restaurace s rodinnou tradicí</h1>
-				<p>
+				<h2>
 					Od svého založení v roce 1974 jsme nezměnili menu
-				</p>
+				</h2>
 				<Image className="foodImg" src={food} alt="food img"></Image>
 			</div>
 			<form onSubmit={rezerv} className="rezerv">
@@ -35,31 +39,33 @@ export default function Home() {
 				</div>
 			</form>
 			<div className="bottomInfo">
-				<h1>Otevírací doba</h1>
-				<ul>
-					<li> PO 11-16</li>
-					<li> ÚT 11-16</li>
-					<li> ST 11-22</li>
-					<li> ČT 11-16</li>
-					<li> PÁ 11-22</li>
-					<li> SO Zavřeno</li>
-					<li> NE Zavřeno</li>
-				</ul>
-				<h1>Kontakt</h1>
-				<ul>
-					<li>Purkyňova 2832, 612 00 Brno-Královo Pole, Česko</li>
-					<li>+420 123 456 789</li>
-					<li>divearus@gmail.com</li>
-					<li>Vedoucí: Lukáš Odehnal</li>
-				</ul>
-				<h1>extra info:</h1>
-				<ul>
-					<li>Přijdete-li s kočárkem, prosím upozorněte nás na to předem, abychom vybrali vhodné místo.</li>
-					<li>Psi v restauraci jsou vítáni, prosím informujte nás předem.</li>
-					<li>Restaurace je klimatizovaná.</li>
-					<li>K dispozici je WiFi připojení.</li>
-				</ul>
+				<div className="otevDoba">
+					<h1>Otevírací doba</h1>
+					<p><b>PO</b> 11-16</p>
+					<p><b>ÚT</b> 11-16</p>
+					<p><b>ST</b> 11-22</p>
+					<p><b>ČT</b> 11-16</p>
+					<p><b>PÁ</b> 11-22</p>
+					<p><b>SO</b> Zavřeno</p>
+					<p><b>NE</b> Zavřeno</p>
+				</div>
+				<div className="kontakt">
+					<h1>Kontakt</h1>
+					<p><Image src={image1} alt="Adresa:" /> Purkyňova 2832, 612 00 Brno-Královo Pole, Česko</p>
+					<p><Image src={image2} alt="Tel. Číslo: " /> +420 123 456 789</p>
+					<p><Image src={image3} alt="Email:" /> divearus@gmail.com</p>
+					<p><Image src={image4} alt="Vedoucí: " /> Lukáš Odehnal</p>
+				</div>
+				<div className="extraInfo">
+					<h1>extra info:</h1>
+					<ul>
+						<li>Přijdete-li s kočárkem, prosím upozorněte nás na to předem, abychom vybrali vhodné místo.</li>
+						<li>Psi v restauraci jsou vítáni, prosím informujte nás předem.</li>
+						<li>Restaurace je klimatizovaná.</li>
+						<li>K dispozici je WiFi připojení.</li>
+					</ul>
+				</div>
 			</div>
-		</div>
+		</div >
 	);
 }
