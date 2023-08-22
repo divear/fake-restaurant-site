@@ -19,7 +19,8 @@ body {
 	background-color: var(--fr);
 	color: var(--bg);
 	padding: 10%;
-	background: url("../public/bg.png"), lightgray 50% / cover no-repeat;
+	background: url("../public/bg.png") no-repeat;
+	background-size: cover;
 }
 body {
 	background-color: transparent;
@@ -68,8 +69,12 @@ input {
 	font-size: 10rem;
 	text-shadow: -5px -5px 0.4vw var(--fr);
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 .subText {
+	margin: 0;
+	padding: 0 0 7vw;
 	font-size: 4.688rem;
 	text-align: center;
 }
@@ -89,10 +94,10 @@ input {
 }
 .foodImg {
 	position: absolute;
-	right: 20vw;
+	right: 35vw;
 	top: 118%;
-	width: 30vw;
-	height: 20vw;
+	width: 24vw;
+	height: 16vw;
 }
 .rezerv {
 	background-color: var(--bg2);
@@ -121,4 +126,22 @@ input {
 }
 .extraInfo {
 	font-size: 1.875rem;
+}
+.nabidkaButton {
+	font-size: 4.688rem;
+}
+.otevDoba {
+	padding: 0 4vw;
+}
+.nav {
+	font-size: 3.125rem;
+	height: 0;
+	color: rgba(255, 255, 255, 0.666);
+	float: right;
+}
+.nav * {
+	padding: 0.5vw;
+}
+.nav *:hover {
+	text-shadow: 5px 0px 0.5vw var(--bg2);
 }

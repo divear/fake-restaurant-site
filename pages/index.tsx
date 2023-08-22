@@ -17,8 +17,8 @@ export default function Home() {
 				<h1 className="headerText">U Labužnického stolu</h1>
 				<h2 className="subText">Tradiční česká restaurace.</h2>
 				<div className="subButtons">
-					<button onClick={() => open("/obedova-nabidka")}>Obědová nabídka</button>
-					<button onClick={() => open("/vecerni-nabidka")}>Večerní nabídka</button>
+					<button className="nabidkaButton" onClick={() => open("/obedova-nabidka")}>Obědová nabídka</button>
+					<button className="nabidkaButton" onClick={() => open("/vecerni-nabidka")}>Večerní nabídka</button>
 				</div>
 			</div>
 			<div className="leftText">
@@ -28,7 +28,7 @@ export default function Home() {
 				</h2>
 				<Image className="foodImg" src={food} alt="food img"></Image>
 			</div>
-			<form onSubmit={rezerv} className="rezerv">
+			<form onSubmit={rezerv} id="rezervace" className="rezerv">
 				<h1 className="leftHeader">Rezervujte si stůl</h1>
 				<div className="rezervGrid">
 					<p>Datum: <input type="date" /></p>
@@ -51,10 +51,10 @@ export default function Home() {
 				</div>
 				<div className="kontakt">
 					<h1>Kontakt</h1>
-					<p><Image src={image1} alt="Adresa:" /> Purkyňova 2832, 612 00 Brno-Královo Pole, Česko</p>
-					<p><Image src={image2} alt="Tel. Číslo: " /> +420 123 456 789</p>
-					<p><Image src={image3} alt="Email:" /> divearus@gmail.com</p>
-					<p><Image src={image4} alt="Vedoucí: " /> Lukáš Odehnal</p>
+					<p title="Adresa"><Image src={image1} alt="Adresa:" /> Purkyňova 2832, 612 00 Brno-Královo Pole, Česko</p>
+					<p title="Tel. Číslo"><Image src={image2} alt="Tel. Číslo: " /> +420 123 456 789</p>
+					<p title="Email"><Image src={image3} alt="Email:" /> divearus@gmail.com</p>
+					<p title="Vedoucí"><Image src={image4} alt="Vedoucí: " /> Lukáš Odehnal</p>
 				</div>
 				<div className="extraInfo">
 					<h1>extra info:</h1>
@@ -65,6 +65,9 @@ export default function Home() {
 						<li>K dispozici je WiFi připojení.</li>
 					</ul>
 				</div>
+			</div>
+			<div className="floatRight watermark">
+				U labužnického stolu 1974-2023
 			</div>
 		</div >
 	);
