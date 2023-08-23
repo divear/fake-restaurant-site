@@ -3,7 +3,9 @@ import React from 'react'
 function VecerniNabidka() {
     return (
         <div>
-            <h1 className='headerText'>
+            <title>Večerní nabídka</title>
+            <h1 className='pageHeader'>
+
                 Večerní nabídka
             </h1>
         </div>

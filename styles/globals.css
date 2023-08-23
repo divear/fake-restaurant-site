@@ -72,6 +72,13 @@ input {
 	margin: 0;
 	padding: 0;
 }
+.pageHeader {
+	font-size: 10rem;
+	text-shadow: -5px -5px 5vw var(--text);
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
 .subText {
 	margin: 0;
 	padding: 0 0 7vw;
@@ -133,15 +140,26 @@ input {
 .otevDoba {
 	padding: 0 4vw;
 }
-.nav {
+.navMain {
 	font-size: 3.125rem;
-	height: 0;
+	height: 0 !important;
+	border-radius: 0 0 0 0.5vw;
 	color: rgba(255, 255, 255, 0.666);
 	float: right;
 }
-.nav * {
+.nav {
+	height: 100%;
+	font-size: 3.125rem;
+	background-color: var(--fr);
+	border-radius: 0 0 0 0.5vw;
+	color: rgba(255, 255, 255, 0.666);
+	float: right;
+}
+.nav *,
+.navMain * {
 	padding: 0.5vw;
 }
-.nav *:hover {
+.nav *:hover,
+.navMain *:hover {
 	text-shadow: 5px 0px 0.5vw var(--bg2);
 }

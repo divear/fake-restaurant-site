@@ -3,7 +3,8 @@ import React from 'react'
 function Obedovanabidka() {
     return (
         <div>
-            <h1 className='headerText'>Obědová nabídka</h1>
+            <title>Obědová nabídka</title>
+            <h1 className='pageHeader'>Obědová nabídka</h1>
         </div>
     )
 }
