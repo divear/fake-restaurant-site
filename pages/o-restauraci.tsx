@@ -2,7 +2,9 @@ import React from 'react'
 
 function ORestauraci() {
     return (
-        <div></div>
+        <div>
+            <h1 className='headerText'>O Restauraci</h1>
+        </div>
     )
 }
 

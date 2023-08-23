@@ -67,7 +67,7 @@ input {
 }
 .headerText {
 	font-size: 10rem;
-	text-shadow: -5px -5px 0.4vw var(--fr);
+	text-shadow: -5px -5px 0.4vw var(--text);
 	text-align: center;
 	margin: 0;
 	padding: 0;

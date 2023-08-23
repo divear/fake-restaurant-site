@@ -15,7 +15,7 @@ export default function Home() {
 			<title>U Labužnického stolu</title>
 			<div className="intro">
 				<h1 className="headerText">U Labužnického stolu</h1>
-				<h2 className="subText">Tradiční česká restaurace.</h2>
+				<h2 className="subText">Tradiční česká restaurace</h2>
 				<div className="subButtons">
 					<button className="nabidkaButton" onClick={() => open("/obedova-nabidka")}>Obědová nabídka</button>
 					<button className="nabidkaButton" onClick={() => open("/vecerni-nabidka")}>Večerní nabídka</button>
@@ -49,7 +49,7 @@ export default function Home() {
 					<p><b>SO</b> Zavřeno</p>
 					<p><b>NE</b> Zavřeno</p>
 				</div>
-				<div className="kontakt">
+				<div id="kontakt" className="kontakt">
 					<h1>Kontakt</h1>
 					<p title="Adresa"><Image src={image1} alt="Adresa:" /> Purkyňova 2832, 612 00 Brno-Královo Pole, Česko</p>
 					<p title="Tel. Číslo"><Image src={image2} alt="Tel. Číslo: " /> +420 123 456 789</p>

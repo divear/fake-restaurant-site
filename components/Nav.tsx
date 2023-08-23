@@ -6,8 +6,8 @@ function Nav() {
         <div className='nav'>
             <Link href="/o-restauraci">o restauraci</Link>
             <Link href="/menu">menu</Link>
-            <Link href="/kontakt">kontakt</Link>
             <Link href="/#rezervace">rezervace</Link>
+            <Link href="/#kontakt">kontakt</Link>
         </div>
     )
 }
