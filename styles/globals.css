@@ -56,6 +56,9 @@ b {
 input {
 	border: none;
 }
+article {
+	font-size: 2rem;
+}
 .floatRight {
 	float: right;
 }
@@ -64,6 +67,9 @@ input {
 }
 .into {
 	text-align: center;
+}
+.content {
+	margin: 0 1vw;
 }
 .headerText {
 	font-size: 10rem;
@@ -74,12 +80,14 @@ input {
 }
 .pageHeader {
 	font-size: 10rem;
-	text-shadow: -5px -5px 5vw var(--text);
+	text-shadow: -5px -5px 3px #4141413d;
+	--text: ;
 	text-align: center;
 	margin: 0;
 	padding: 0;
 }
 .subText {
+	color: var(--bg2);
 	margin: 0;
 	padding: 0 0 7vw;
 	font-size: 4.688rem;

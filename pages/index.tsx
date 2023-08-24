@@ -30,6 +30,12 @@ export default function Home() {
 			</div>
 			<form onSubmit={rezerv} id="rezervace" className="rezerv">
 				<h1 className="leftHeader">Rezervujte si stůl</h1>
+				<ul className="extraInfo floatRight">
+					<li>Přijdete-li s kočárkem, prosím upozorněte nás na to předem, abychom vybrali vhodné místo.</li>
+					<li>Psi v restauraci jsou vítáni, prosím informujte nás předem.</li>
+					<li>Restaurace je klimatizovaná.</li>
+					<li>K dispozici je WiFi připojení.</li>
+				</ul>
 				<div className="rezervGrid">
 					<p>Datum: <input type="date" /></p>
 					<p>Počet hostů: <input type="number" /></p>
@@ -55,15 +61,6 @@ export default function Home() {
 					<p title="Tel. Číslo"><Image src={image2} alt="Tel. Číslo: " /> +420 123 456 789</p>
 					<p title="Email"><Image src={image3} alt="Email:" /> divearus@gmail.com</p>
 					<p title="Vedoucí"><Image src={image4} alt="Vedoucí: " /> Lukáš Odehnal</p>
-				</div>
-				<div className="extraInfo">
-					<h1>extra info:</h1>
-					<ul>
-						<li>Přijdete-li s kočárkem, prosím upozorněte nás na to předem, abychom vybrali vhodné místo.</li>
-						<li>Psi v restauraci jsou vítáni, prosím informujte nás předem.</li>
-						<li>Restaurace je klimatizovaná.</li>
-						<li>K dispozici je WiFi připojení.</li>
-					</ul>
 				</div>
 			</div>
 			<div className="floatRight watermark">
