@@ -171,3 +171,19 @@ article {
 .navMain *:hover {
 	text-shadow: 5px 0px 0.5vw var(--bg2);
 }
+.orestauraciImg {
+	float: right;
+	width: 40%;
+}
+.orestauraciText {
+	font-size: 1.3rem;
+}
+.galerie {
+	margin: 20vh 0vw;
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	width: 100%;
+}
+.galerie img {
+	width: 80%;
+}
