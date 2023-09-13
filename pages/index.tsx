@@ -17,8 +17,8 @@ export default function Home() {
 				<h1 className="headerText">U Labužnického stolu</h1>
 				<h2 className="subText">Tradiční česká restaurace</h2>
 				<div className="subButtons">
-					<button className="nabidkaButton" onClick={() => open("/obedova-nabidka")}>Obědová nabídka</button>
-					<button className="nabidkaButton" onClick={() => open("/vecerni-nabidka")}>Večerní nabídka</button>
+					<button className="nabidkaButton" onClick={() => open("/menu/#obedovaNabidka")}>Obědová nabídka</button>
+					<button className="nabidkaButton" onClick={() => open("/menu/#vecerniNabidka")}>Večerní nabídka</button>
 				</div>
 			</div>
 			<div className="leftText">
