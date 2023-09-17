@@ -60,10 +60,11 @@ article {
 	font-size: 2rem;
 }
 table {
-	background-color: var(--bg2);
+	background-color: #fbe9e9bb;
 	padding: 0.4vw;
 	border: 0.2vw;
 	text-align: center;
+	margin: auto;
 }
 .floatRight {
 	float: right;
@@ -198,7 +199,27 @@ table {
 .smallPageHeader {
 	font-size: 5rem;
 	text-shadow: -5px -5px 3px #4141413d;
-	text-align: center;
+	/* text-align: center; */
 	margin: 0;
 	padding: 0;
+}
+.nabidka {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+.obedovaNabidka,
+.vecerniNabidka {
+	margin: 15vh 0;
+	text-align: center;
+	scale: 1.2;
+	padding: 1vw;
+	border-radius: 0.2vw;
+}
+.obedovaNabidka {
+	background-image: url("http://www.pizzasos.cz/wp-content/uploads/smazak.jpg");
+}
+
+.vecerniNabidka {
+	background-image: url("https://www.todoinprague.com/wp-content/uploads/2020/02/typical-czech-cuisine-svickova.jpg");
 }

@@ -6,61 +6,67 @@ function Menu() {
             <title>Menu</title>
             <h1 className='pageHeader'>Menu</h1>
 
-            <div id="obedovaNabidka">
+            <div className="nabidka">
 
-                <h1 className='smallPageHeader'>Obědová nabídka</h1>
-                <h3>Na oběd nabízíme z pestrého výběru jídel:</h3>
-                <table>
-                    <tr>
-                        <td>Segedínský guláš</td>
-                        <td>140kč</td>
-                    </tr>
-                    <tr>
-                        <td>Segedínský guláš</td>
-                        <td>140kč</td>
-                    </tr>
-                    <tr>
-                        <td>Segedínský guláš</td>
-                        <td>140kč</td>
-                    </tr>
-                    <tr>
-                        <td>Segedínský guláš</td>
-                        <td>140kč</td>
-                    </tr>
-                    <tr>
-                        <td>Segedínský guláš</td>
-                        <td>140kč</td>
-                    </tr>
-                </table>
-            </div>
-            <div id="vecerniNabidka">
+                <div className="obedovaNabidka">
 
-                <h1 className='smallPageHeader'>Večerní nabídka</h1>
-                <h3>Na večeři nabízíme tyto dobroty:</h3>
-                <table>
-                    <tr>
-                        <td>Segedínský guláš</td>
-                        <td>140kč</td>
-                    </tr>
-                    <tr>
-                        <td>Segedínský guláš</td>
-                        <td>140kč</td>
-                    </tr>
-                    <tr>
-                        <td>Segedínský guláš</td>
-                        <td>140kč</td>
-                    </tr>
-                    <tr>
-                        <td>Segedínský guláš</td>
-                        <td>140kč</td>
-                    </tr>
-                    <tr>
-                        <td>Segedínský guláš</td>
-                        <td>140kč</td>
-                    </tr>
-                </table>
+                    <h1 className='smallPageHeader'>Obědová nabídka</h1>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Segedínský guláš</td>
+                                <td>140kč</td>
+                            </tr>
+                            <tr>
+                                <td>Smažený sýr</td>
+                                <td>120kč</td>
+                            </tr>
+                            <tr>
+                                <td>Řízek</td>
+                                <td>140kč</td>
+                            </tr>
+                            <tr>
+                                <td>Langoš</td>
+                                <td>140kč</td>
+                            </tr>
+                            <tr>
+                                <td>Přírodní řízek</td>
+                                <td>140kč</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div className="vecerniNabidka">
+
+                    <h1 className='smallPageHeader'>Večerní nabídka</h1>
+                    <table>
+                        <tbody>
+
+                            <tr>
+                                <td>Segedínský guláš</td>
+                                <td>140kč</td>
+                            </tr>
+                            <tr>
+                                <td>Palačinky</td>
+                                <td>120kč</td>
+                            </tr>
+                            <tr>
+                                <td>Hamburger</td>
+                                <td>140kč</td>
+                            </tr>
+                            <tr>
+                                <td>Svíčková omáčka</td>
+                                <td>140kč</td>
+                            </tr>
+                            <tr>
+                                <td>Bramboráky</td>
+                                <td>140kč</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
+        </ div>
     )
 }
 
