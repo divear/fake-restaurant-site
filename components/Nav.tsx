@@ -13,7 +13,9 @@ function Nav() {
 
     return (
         <div className={navClass}>
-            <Image width={150} src={icon} alt="U Labužníckého stolu" />
+            <a href="/">
+                <Image className='logo' width={150} src={icon} alt="U Labužníckého stolu" />
+            </a>
             <Link href="/#rezervace">rezervace</Link>
             <Link href="/#kontakt">kontakt</Link>
             <Link href="/o-restauraci">o restauraci</Link>

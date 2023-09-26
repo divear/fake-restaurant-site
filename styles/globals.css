@@ -223,3 +223,10 @@ table {
 .vecerniNabidka {
 	background-image: url("https://www.todoinprague.com/wp-content/uploads/2020/02/typical-czech-cuisine-svickova.jpg");
 }
+.logo {
+	position: fixed;
+	left: 1%;
+	width: 5%;
+	height: auto;
+	cursor: pointer;
+}
