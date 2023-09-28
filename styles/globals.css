@@ -16,10 +16,10 @@ body {
 	/* filter: blur(5px); */
 }
 .intro {
-	background-color: var(--fr);
 	color: var(--bg);
 	padding: 10%;
-	background: url("../public/background.png") no-repeat;
+	background: url("https://firebasestorage.googleapis.com/v0/b/picture-database.appspot.com/o/imgs%2Fbackground.png?alt=media")
+		no-repeat;
 	background-size: cover;
 }
 body {
@@ -65,6 +65,9 @@ table {
 	border: 0.2vw;
 	text-align: center;
 	margin: auto;
+}
+.no {
+	display: none;
 }
 .floatRight {
 	float: right;
@@ -236,4 +239,30 @@ table {
 	transform: translate(-50%, 50%);
 	scale: 125%;
 	text-align: center;
+}
+@media only screen and (max-width: 1547px) {
+	.intro {
+		padding: 5%;
+	}
+	.headerText {
+		font-size: 2rem;
+		text-shadow: -5px -5px 0.4vw var(--text);
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.pageHeader {
+		font-size: 1rem;
+		text-shadow: -5px -5px 3px #4141413d;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.subText {
+		color: var(--bg2);
+		margin: 0;
+		padding: 0 0 7vw;
+		font-size: 4.688rem;
+		text-align: center;
+	}
 }
