@@ -19,7 +19,7 @@ body {
 	background-color: var(--fr);
 	color: var(--bg);
 	padding: 10%;
-	background: url("../public/bg.png") no-repeat;
+	background: url("../public/background.png") no-repeat;
 	background-size: cover;
 }
 body {
