@@ -8,6 +8,7 @@ import burger from "../public/icons/burger.png"
 
 function Nav() {
     const [isMobile, setIsMobile] = useState(false);
+    const [modal, setModal] = useState(false)
     const router = useRouter();
     const currentPathname = router.pathname;
     console.log(currentPathname)
@@ -23,8 +24,8 @@ function Nav() {
 
 
     return (
-        <div className={navClass}>
-            <div className={!isMobile ? "wideView" : "no"}>
+        <div>
+            <div className={!isMobile ? navClass : "no"}>
                 <Link href="/">
                     <Image className='logo' width={150} src={icon} alt="U Labužníckého stolu" />
                 </Link>
@@ -33,9 +34,10 @@ function Nav() {
                 <Link href="/o-restauraci">o restauraci</Link>
                 <Link href="/menu">menu</Link>
             </div>
-            <div className={isMobile ? "burgerMenu" : "no"}>
-                <Image width={80} src={burger} alt='☰' />
+            <div onClick={() => setModal(!modal)} className={isMobile ? "burgerMenu" : "no"}>
+                <Image width={50} src={burger} alt='☰' />
             </div>
+            <div className={modal ? "modal" : "no"}></div>
 
         </div>
     )

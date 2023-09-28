@@ -265,4 +265,38 @@ table {
 		font-size: 4.688rem;
 		text-align: center;
 	}
+	.burgerMenu {
+		position: fixed;
+		top: 1%;
+		right: 1%;
+	}
+	.bottomInfo {
+		padding: 2vw;
+		display: block;
+		grid-template-columns: repeat(3, 1fr);
+		font-size: 2.813rem;
+	}
+	.leftText {
+		padding: 5vw 10vw;
+		width: 25vw;
+	}
+	.rezerv {
+		background-color: var(--bg2);
+		padding: 1vw;
+	}
+	.rezervGrid {
+		width: 15vw;
+		padding: 0 2vw;
+
+		display: block;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.rezervGrid * {
+		font-size: 2rem;
+		margin: 0.1vw 0;
+	}
+	.submitRezerv {
+		width: auto;
+		margin: 1vw;
+	}
 }
