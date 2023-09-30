@@ -22,7 +22,7 @@ export default function Home() {
 			</div>
 			<div className="leftText">
 				<h1 className="leftHeader">Restaurace s rodinnou tradicí</h1>
-				<h2>
+				<h2 className="leftInfo">
 					Od svého založení v roce 1974 jsme nezměnili menu
 				</h2>
 				<Image className="foodImg" src={food} alt="food img"></Image>

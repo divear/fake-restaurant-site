@@ -38,10 +38,10 @@ function Nav() {
                 <Image width={50} src={burger} alt='☰' />
             </div>
             <div className={modal ? "modal" : "no"}>
-                <Link href="/#rezervace">rezervace</Link>
-                <Link href="/#kontakt">kontakt</Link>
-                <Link href="/o-restauraci">o restauraci</Link>
-                <Link href="/menu">menu</Link>
+                <Link onClick={() => setModal(false)} href="/#rezervace">rezervace</Link>
+                <Link onClick={() => setModal(false)} href="/#kontakt">kontakt</Link>
+                <Link onClick={() => setModal(false)} href="/o-restauraci">o restauraci</Link>
+                <Link onClick={() => setModal(false)} href="/menu">menu</Link>
             </div>
 
         </div>

@@ -242,17 +242,17 @@ table {
 }
 @media only screen and (max-width: 1547px) {
 	.intro {
-		padding: 5%;
+		padding: 0%;
 	}
 	.headerText {
-		font-size: 2rem;
+		font-size: 4.688rem;
 		text-shadow: -5px -5px 0.4vw var(--text);
 		text-align: center;
 		margin: 0;
 		padding: 0;
 	}
 	.pageHeader {
-		font-size: 1rem;
+		font-size: 5rem;
 		text-shadow: -5px -5px 3px #4141413d;
 		text-align: center;
 		margin: 0;
@@ -262,13 +262,17 @@ table {
 		color: var(--bg2);
 		margin: 0;
 		padding: 0 0 7vw;
-		font-size: 4.688rem;
+		font-size: 2rem;
 		text-align: center;
 	}
 	.burgerMenu {
 		position: fixed;
 		top: 1%;
 		right: 1%;
+		z-index: 9;
+		background-color: rgba(0, 0, 0, 0.142);
+		padding: 0;
+		border-radius: 3vw;
 	}
 	.bottomInfo {
 		padding: 2vw;
@@ -287,7 +291,6 @@ table {
 	.rezervGrid {
 		width: 15vw;
 		padding: 0 2vw;
-
 		display: block;
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -298,5 +301,42 @@ table {
 	.submitRezerv {
 		width: auto;
 		margin: 1vw;
+	}
+	.leftHeader {
+		font-size: 3rem;
+		margin: 5vh 0 0 0 !important;
+		width: 100%;
+	}
+	.foodImg {
+		position: absolute;
+		right: 5vw;
+		top: 98%;
+		width: 56vw;
+		height: 56vw;
+	}
+	.leftInfo {
+		display: block;
+		float: none !important;
+	}
+	.nabidka {
+		display: block;
+		justify-content: space-evenly;
+		width: 90%;
+	}
+	.modal {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 9;
+		background-color: var(--text);
+		color: var(--bg2);
+		font-size: 5rem;
+		text-align: center;
+		padding: 5vw;
+		border-radius: 2vw;
+	}
+	.modal * {
+		display: block;
 	}
 }
