@@ -37,7 +37,12 @@ function Nav() {
             <div onClick={() => setModal(!modal)} className={isMobile ? "burgerMenu" : "no"}>
                 <Image width={50} src={burger} alt='☰' />
             </div>
-            <div className={modal ? "modal" : "no"}></div>
+            <div className={modal ? "modal" : "no"}>
+                <Link href="/#rezervace">rezervace</Link>
+                <Link href="/#kontakt">kontakt</Link>
+                <Link href="/o-restauraci">o restauraci</Link>
+                <Link href="/menu">menu</Link>
+            </div>
 
         </div>
     )
