@@ -304,19 +304,25 @@ table {
 	}
 	.leftHeader {
 		font-size: 3rem;
-		margin: 5vh 0 0 0 !important;
+		margin: 5vh 0 0vh 0 !important;
 		width: 100%;
+		display: flex;
 	}
+	.firstHead {
+		margin: 5vh 0 20vh 0 !important;
+	}
+	/* .leftText {
+		display: none;
+	} */
 	.foodImg {
 		position: absolute;
-		right: 5vw;
-		top: 98%;
-		width: 56vw;
+		left: 4vw;
+		top: 85%;
+		width: 86vw;
 		height: 56vw;
 	}
 	.leftInfo {
-		display: block;
-		float: none !important;
+		display: none;
 	}
 	.nabidka {
 		display: block;
